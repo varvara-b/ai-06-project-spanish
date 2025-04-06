@@ -3,8 +3,6 @@ import io
 import streamlit as st
 
 from transformers import pipeline
-from huggingface_hub import snapshot_download
-snapshot_download(repo_id="microsoft/trocr-large-printed", repo_type="model")
 from PIL import Image
 
 
