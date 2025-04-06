@@ -4,6 +4,7 @@ import streamlit as st
 
 from transformers import pipeline
 from PIL import Image
+torch._C._log_api_usage_once("app")
 
 
 def load_image():
