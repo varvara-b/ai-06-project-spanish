@@ -4,6 +4,9 @@ import streamlit as st
 
 from transformers import pipeline
 from PIL import Image
+import warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
+warnings.filterwarnings("ignore", category=UserWarning)
 torch._C._log_api_usage_once("app")
 
 
@@ -26,7 +29,9 @@ if result:
     captioner = pipeline(
         "image-to-text",
         "microsoft/trocr-large-printed",
-        token=st.secrets["HUGGINGFACE_TOKEN"])
+        token=st.secrets["HUGGINGFACE_TOKEN"],
+            max_new_tokens=50
+        )
     text = captioner(img)
     st.write('Результаты распознавания:')
     st.write(text[0]["generated_text"])
