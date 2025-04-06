@@ -24,9 +24,10 @@ img = load_image()
 result = st.button('Распознать изображение')
 if result:
     captioner = pipeline(
-        "image-to-text", 
+        "image-to-text",
         "microsoft/trocr-large-printed",
-        token=st.secrets["HUGGINGFACE_TOKEN"], max_new_tokens=100)
+        token=st.secrets["HUGGINGFACE_TOKEN"],
+        max_new_tokens=100)
     text = captioner(img)
     st.write('Результаты распознавания:')
     st.write(text[0]["generated_text"])
