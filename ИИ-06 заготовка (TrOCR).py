@@ -3,6 +3,7 @@ import io
 import streamlit as st
 
 from transformers import pipeline
+from transformers import TrOCRProcessor, VisionEncoderDecoderModel
 from PIL import Image
 
 
