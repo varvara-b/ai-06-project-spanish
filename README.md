@@ -1,4 +1,4 @@
-Техническое описание модели:
+<h3 align="center">Техническое описание модели</h3>
 
 **TrOCR [(печатное распознавание)](http://microsoft/trocr-large-printed)**
 Модель TrOCR, дообученная на [наборе данных SROIE](https://rrc.cvc.uab.es/?ch=13). Она была представлена в [статье](https://arxiv.org/abs/2109.10282) авторов Li et al. и впервые опубликована в [этом репозитории](https://github.com/microsoft/unilm/tree/master/trocr).
