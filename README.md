@@ -1,6 +1,6 @@
 Техническое описание модели:
 **TrOCR [(печатное распознавание)](http://microsoft/trocr-large-printed)**
-Модель TrOCR, дообученная на ([наборе данных SROIE](https://rrc.cvc.uab.es/?ch=13)). Она была представлена в [статье](https://arxiv.org/abs/2109.10282) авторов Li et al. и впервые опубликована в [этом репозитории](https://github.com/microsoft/unilm/tree/master/trocr).
+Модель TrOCR, дообученная на [наборе данных SROIE](https://rrc.cvc.uab.es/?ch=13). Она была представлена в [статье](https://arxiv.org/abs/2109.10282) авторов Li et al. и впервые опубликована в [этом репозитории](https://github.com/microsoft/unilm/tree/master/trocr).
 
 _Примечание: Команда, выпустившая TrOCR, не подготовила карту модели (model card), поэтому данное описание было составлено командой Hugging Face._  
 
