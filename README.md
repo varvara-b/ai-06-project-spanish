@@ -12,4 +12,5 @@ TrOCR — это модель типа «кодировщик-декодиров
 Применение и ограничения
 Модель можно использовать для оптического распознавания символов (OCR) на изображениях с одной строкой текста. В [хабе моделей](https://huggingface.co/models?search=microsoft/trocr) можно найти другие дообученные версии для конкретных задач.
 
+---
 Документация хода работы — [журнал задач](https://docs.google.com/spreadsheets/d/1e6fI30tqwKYHyXy-QpfAwAXOJLQMZhI2/edit?usp=sharing&ouid=112407436546437674558&rtpof=true&sd=true).
