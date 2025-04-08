@@ -2,9 +2,7 @@ import io
 import streamlit as st
 
 from transformers import pipeline
-from transformers import TrOCRProcessor, VisionEncoderDecoderModel
 from PIL import Image
-import requests
 
 def load_image():
     
@@ -22,7 +20,7 @@ img = load_image()
 
 result = st.button('Распознать изображение')
 if result:
-    captioner = pipeline("image-to-text", "microsoft/trocr-large-printed")
+    captioner = pipeline("image-to-text", model="microsoft/trocr-large-printed")
     text = captioner(img)
     st.write('**Результаты распознавания:**')
     st.write(text[0]["generated_text"])
