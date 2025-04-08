@@ -1,13 +1,8 @@
-import torch
 import io
 import streamlit as st
 
 from transformers import pipeline
 from PIL import Image
-import warnings
-warnings.filterwarnings("ignore", category=FutureWarning)
-warnings.filterwarnings("ignore", category=UserWarning)
-torch._C._log_api_usage_once("app")
 
 
 def load_image():
@@ -33,5 +28,5 @@ if result:
             max_new_tokens=50
         )
     text = captioner(img)
-    st.write('Результаты распознавания:')
+    st.write('**Результаты распознавания:**')
     st.write(text[0]["generated_text"])
