@@ -3,6 +3,9 @@ import streamlit as st
 
 from transformers import pipeline
 from PIL import Image
+from huggingface_hub import snapshot_download
+
+snapshot_download(repo_id="microsoft/trocr-large-printed", repo_type="model")
 
 def load_image():
     
