@@ -2,3 +2,4 @@ torchvision
 transformers
 streamlit
 pillow
+numpy
