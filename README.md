@@ -9,7 +9,7 @@
 * [Transformers](https://huggingface.co/)
 * [Torchvision](https://pytorch.org/vision/stable/index.html)
 
-Для распознавания изображений используется нейронная сеть TrOCR.
+Для распознавания изображений используется нейронная сеть **TrOCR**.
 
 **<h3 align="center">Техническое описание модели</h3>**
 
@@ -34,7 +34,7 @@ TrOCR — это модель типа «кодировщик-декодиров
 
 </div>
 
-Ссылка на развернутое приложение: https://ai-06-project-spanish-uumcfjgjtwdlswi7otv4yi.streamlit.app/
+[Развёрнутое приложение](https://ai-06-project-spanish-uumcfjgjtwdlswi7otv4yi.streamlit.app/)
 
 ***
 *Над проектом работали:*
