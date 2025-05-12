@@ -32,9 +32,9 @@ TrOCR — это модель типа «кодировщик-декодиров
 
 [Журнал задач](https://docs.google.com/spreadsheets/d/1e6fI30tqwKYHyXy-QpfAwAXOJLQMZhI2/edit?usp=sharing&ouid=112407436546437674558&rtpof=true&sd=true)
 
-</div>
-
 [Развёрнутое приложение](https://ai-06-project-spanish-uumcfjgjtwdlswi7otv4yi.streamlit.app/)
+
+</div>
 
 ***
 *Над проектом работали:*
